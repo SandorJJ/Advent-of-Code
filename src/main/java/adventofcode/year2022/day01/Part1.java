@@ -9,7 +9,7 @@ import java.util.List;
 public class Part1 {
 
     public static void main(String[] args) {
-        List<Integer> sumsOfCalories = calculateSumsOfCalories(readFile("src/main/java/adventofcode/year2022/day01/example-input.txt"));
+        List<Integer> sumsOfCalories = calculateSumsOfCalories(readFile("src/main/java/adventofcode/year2022/day01/input.txt"));
         sumsOfCalories.sort(Collections.reverseOrder());
         System.out.println(sumsOfCalories.get(0));
     }
