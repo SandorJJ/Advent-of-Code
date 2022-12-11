@@ -34,8 +34,8 @@ public class Part2 {
     public static List<String> readFile(String file) {
         List<String> lines = new ArrayList<>();
 
-        try (BufferedReader bufferedReader = new BufferedReader(new FileReader(file));) {
-            String line = "";
+        try (BufferedReader bufferedReader = new BufferedReader(new FileReader(file))) {
+            String line;
 
             while ((line = bufferedReader.readLine()) != null) {
                 lines.add(line);
