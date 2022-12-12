@@ -1,4 +1,4 @@
-package adventofcode.year2022.day01;
+package adventofcode.year2022.day01.part2;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
