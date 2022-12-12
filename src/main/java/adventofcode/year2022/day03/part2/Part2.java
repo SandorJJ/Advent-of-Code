@@ -1,14 +1,14 @@
 package adventofcode.year2022.day03.part2;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
+import adventofcode.util.InputReader;
+
 import java.util.ArrayList;
 import java.util.List;
 
 public class Part2 {
 
     public static void main(String[] args) {
-        List<String> contents = readFile("src/main/java/adventofcode/year2022/day03/input.txt");
+        List<String> contents = InputReader.readInputFile("day03");
         int prioritySum = 0;
         for (int priority : getPriorityValues(getMatches(getGroups(contents)))) {
             prioritySum += priority;
@@ -68,21 +68,4 @@ public class Part2 {
         return priorityValues;
     }
 
-    public static List<String> readFile(String file) {
-        List<String> lines = new ArrayList<>();
-
-        try (BufferedReader bufferedReader = new BufferedReader(new FileReader(file))) {
-            String line;
-
-            while ((line = bufferedReader.readLine()) != null) {
-                lines.add(line);
-            }
-
-
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-
-        return lines;
-    }
 }

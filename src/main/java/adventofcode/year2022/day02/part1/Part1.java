@@ -1,14 +1,13 @@
 package adventofcode.year2022.day02.part1;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.util.ArrayList;
+import adventofcode.util.InputReader;
+
 import java.util.List;
 
 public class Part1 {
 
     public static void main(String[] args) {
-        List<String> games = readFile("src/main/java/adventofcode/year2022/day02/input.txt");
+        List<String> games = InputReader.readInputFile("day02");
         int totalPoints = calculateOutcomePoints(games) + calculateShapePoints(games);
         System.out.println(totalPoints);
     }
@@ -44,22 +43,5 @@ public class Part1 {
         return points;
     }
 
-    public static List<String> readFile(String file) {
-        List<String> lines = new ArrayList<>();
-
-        try (BufferedReader bufferedReader = new BufferedReader(new FileReader(file))) {
-            String line;
-
-            while ((line = bufferedReader.readLine()) != null) {
-                lines.add(line);
-            }
-
-
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-
-        return lines;
-    }
 
 }
