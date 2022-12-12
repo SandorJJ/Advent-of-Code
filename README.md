@@ -1,5 +1,6 @@
 # advent-of-code
-My advent of code solutions as a beginner programmer in Java. 
+My Advent of Code solutions as a beginner programmer in Java. 
+
 
 ## 2022 
 ### Days:
