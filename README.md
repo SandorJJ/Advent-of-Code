@@ -1,5 +1,5 @@
 # advent-of-code
-My Advent of Code solutions as a beginner programmer in Java. 
+My Advent of Code solutions in Java as a beginner programmer. 
 
 
 ## 2022 
