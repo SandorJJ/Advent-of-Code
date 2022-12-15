@@ -12,8 +12,6 @@ c
 3src/main/java/adventofcode/year2022/day03/input.txt,a\9\a9866bd488d9e27243842ac597f67054a2772e92
 k
 ;src/main/java/adventofcode/year2022/day03/example-input.txt,5\7\572c54d4bcc3cebb7ec2b7bd5f7b6e373ee0705c
-9
-	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 `
 0src/main/java/adventofcode/util/InputReader.java,1\f\1fd570a6045c42bb843e1add9c73f4e8cc62af2d
 j
