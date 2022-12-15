@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08fada47-1e76-49f5-a616-8e741de31fb0" name="Changes" comment="Reorganized packages.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/adventofcode/util/inputReader.java" afterDir="false" />
+    <list default="true" id="08fada47-1e76-49f5-a616-8e741de31fb0" name="Changes" comment="Added a utility class called InputReader and refactored the challenges to use it.">
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/adventofcode/year2022/day03/part1/Part1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adventofcode/year2022/day03/part1/Part1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/adventofcode/year2022/day03/part2/Part2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adventofcode/year2022/day03/part2/Part2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/adventofcode/year2022/day01/part1/Part1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adventofcode/year2022/day01/part1/CalorieCounting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/adventofcode/year2022/day01/part2/Part2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adventofcode/year2022/day01/part2/CalorieCounting.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670824037851</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added a utility class called InputReader and refactored the challenges to use it.">
+      <created>1670825691539</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1670825691539</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -133,7 +139,8 @@
     <MESSAGE value="Completed part 1 of Day 3: Rucksack Reorganization." />
     <MESSAGE value="Completed part 2 of Day 3: Rucksack Reorganization." />
     <MESSAGE value="Reorganized packages." />
-    <option name="LAST_COMMIT_MESSAGE" value="Reorganized packages." />
+    <MESSAGE value="Added a utility class called InputReader and refactored the challenges to use it." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a utility class called InputReader and refactored the challenges to use it." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
